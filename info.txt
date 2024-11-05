@@ -1,0 +1,15 @@
+Número de grupo: NO ASIGNADO.
+Líder de equipo: Nahin Espinoza.
+
+Integrantes:
+1. Ceballos Marcillo Sebastian — Colaborador.
+2. Espinoza Ortiz Nahin — Líder.
+3. Gómez Tumbaco Angel — Colaborador.
+4. Saquisili Fuentes Silvia — Colaborador.
+
+Motivo de elección del líder: Cuenta con grandes habilidades de comunicación en grupo, además de tener conocimientos en C y Linux.
+
+Cómo se realizó la división del taller:
+-- Dos integrantes (Silvia Saquisili / Sebastian Ceballos) se encargaron de realizar los cálculos requeridos.
+-- Un integrante (Nahin Espinoza) creó la sección de datos.c, unificando lo realizado en calculos.C
+-- Un integrante (Angel Gómez) creó el main.c y el makefile.
