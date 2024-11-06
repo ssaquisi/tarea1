@@ -1,0 +1,11 @@
+2024/11/05: silvia – Ingreso exitoso al sistema
+2024/11/05: silvia – Cuadrado
+2024/11/05: silvia – Ingreso exitoso al sistema
+2024/11/05: silvia – Cubo
+2024/11/05: silvia – Cuadrado
+2024/11/05: silvia – Cono Circular Recto
+2024/11/05: silvia – Salida del sistema
+2024/11/05: acosta – Ingreso exitoso al sistema
+2024/11/05: acosta – Cilindro Recto
+2024/11/05: acosta – Salida del sistema
+2024/11/05: elenio – Ingreso fallido usuario/contraseña erróneo

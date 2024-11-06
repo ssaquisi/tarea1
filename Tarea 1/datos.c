@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+#include <time.h>
 #include "libreria.h"
 
 void mostrar_menu()
@@ -379,4 +381,36 @@ int continuar() {
         return 0;
     }
     return 1;
+}
+
+int validar_usuario(const char *usuario, const char* contrasena){
+    FILE *file = fopen("usuarios.txt", "r");
+    if(!file){
+        return 0;
+    }
+
+    char line[256];
+    while(fgets(line, sizeof(line), file)){
+        char user[128], pass[128];
+        sscanf(line, "%127[^:]:%127s", user, pass);
+        if(strcmp(user, usuario) == 0 && strcmp(pass, contrasena) == 0){
+            fclose(file);
+            return 1;
+        }
+    }
+
+    fclose(file);
+    return 0;
+}
+
+void registrar_acceso(const char *usuario, const char *actividad){
+    FILE *file = fopen("bitacora.txt", "a");
+    if(file){
+        time_t t = time(NULL);
+        struct tm tm = *localtime(&t);
+
+        fprintf(file, "%04d/%02d/%02d: %s – %s\n", tm.tm_year + 1900,
+        tm.tm_mon + 1, tm.tm_mday, usuario, actividad);
+        fclose(file);
+    }
 }

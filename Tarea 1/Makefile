@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -finput-charset=UTF-8 -fexec-charset=UTF-8 -g -O2
 
 # Detectar el sistema operativo
-ifeq ($(OS),Windows_NT)
+ifeq ($(OS), Windows_NT)
     DEL = del
 else
     DEL = rm -f

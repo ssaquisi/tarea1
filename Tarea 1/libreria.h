@@ -53,4 +53,8 @@ int mostrar_elegir_SV();
 void mostrar_resultado(const char *figura, float resultado);
 int continuar();
 
+// Validación y acceso de usuarios
+int validar_usuario(const char *usuario, const char* contrasena);
+void registrar_acceso(const char *usuario, const char *actividad);
+
 #endif

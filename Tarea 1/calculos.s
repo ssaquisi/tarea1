@@ -540,7 +540,7 @@ Letext0:
 	.file 2 "c:/mingw/include/math.h"
 	.section	.debug_info,"dr"
 Ldebug_info0:
-	.long	0x9d7
+	.long	0x9d5
 	.word	0x4
 	.secrel32	Ldebug_abbrev0
 	.byte	0x4
@@ -548,7 +548,7 @@ Ldebug_info0:
 	.ascii "GNU C11 6.3.0 -mtune=generic -march=i586 -g -O2 -finput-charset=UTF-8 -fexec-charset=UTF-8\0"
 	.byte	0xc
 	.ascii "calculos.c\0"
-	.ascii "C:\\Users\\omits\\OneDrive - Escuela Superior Polit\351cnica del Litoral\\Documentos\\Visual Studio\\Taller 1 ProgSis\0"
+	.ascii "C:\\Users\\omits\\OneDrive - Escuela Superior Polit\351cnica del Litoral\\Documentos\\Visual Studio\\tarea1\\Tarea 1\0"
 	.long	Ltext0
 	.long	Letext0-Ltext0
 	.secrel32	Ldebug_line0
@@ -576,17 +576,17 @@ Ldebug_info0:
 	.ascii "calcular_volumen_cono_circular_recto\0"
 	.byte	0x1
 	.byte	0x72
-	.long	0xf6
+	.long	0xf4
 	.long	LFB50
 	.long	LFE50-LFB50
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x174
+	.long	0x172
 	.uleb128 0x4
 	.secrel32	LASF0
 	.byte	0x1
 	.byte	0x72
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -594,7 +594,7 @@ Ldebug_info0:
 	.secrel32	LASF1
 	.byte	0x1
 	.byte	0x72
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
@@ -603,17 +603,17 @@ Ldebug_info0:
 	.ascii "calcular_superficie_cono_circular_recto\0"
 	.byte	0x1
 	.byte	0x6e
-	.long	0xf6
+	.long	0xf4
 	.long	LFB49
 	.long	LFE49-LFB49
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x1d5
+	.long	0x1d3
 	.uleb128 0x4
 	.secrel32	LASF0
 	.byte	0x1
 	.byte	0x6e
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -621,7 +621,7 @@ Ldebug_info0:
 	.ascii "generatriz\0"
 	.byte	0x1
 	.byte	0x6e
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
@@ -630,23 +630,23 @@ Ldebug_info0:
 	.ascii "calcular_volumen_esfera\0"
 	.byte	0x1
 	.byte	0x6a
-	.long	0xf6
+	.long	0xf4
 	.long	LFB48
 	.long	LFE48-LFB48
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x23a
+	.long	0x238
 	.uleb128 0x4
 	.secrel32	LASF0
 	.byte	0x1
 	.byte	0x6a
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
 	.uleb128 0x6
 	.long	LVL21
-	.long	0x9cf
+	.long	0x9cd
 	.uleb128 0x7
 	.uleb128 0x2
 	.byte	0x74
@@ -656,16 +656,16 @@ Ldebug_info0:
 	.sleb128 0
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0xf6
+	.uleb128 0xf4
 	.byte	0xf7
-	.uleb128 0xec
+	.uleb128 0xea
 	.uleb128 0x7
 	.uleb128 0x2
 	.byte	0x74
 	.sleb128 8
 	.uleb128 0xc
 	.byte	0xf4
-	.uleb128 0xec
+	.uleb128 0xea
 	.byte	0x8
 	.long	0
 	.long	0x40080000
@@ -675,17 +675,17 @@ Ldebug_info0:
 	.ascii "calcular_superficie_esfera\0"
 	.byte	0x1
 	.byte	0x66
-	.long	0xf6
+	.long	0xf4
 	.long	LFB47
 	.long	LFE47-LFB47
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x279
+	.long	0x277
 	.uleb128 0x4
 	.secrel32	LASF0
 	.byte	0x1
 	.byte	0x66
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -694,17 +694,17 @@ Ldebug_info0:
 	.ascii "calcular_volumen_cilindro_recto\0"
 	.byte	0x1
 	.byte	0x62
-	.long	0xf6
+	.long	0xf4
 	.long	LFB46
 	.long	LFE46-LFB46
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x2cb
+	.long	0x2c9
 	.uleb128 0x4
 	.secrel32	LASF0
 	.byte	0x1
 	.byte	0x62
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -712,7 +712,7 @@ Ldebug_info0:
 	.secrel32	LASF1
 	.byte	0x1
 	.byte	0x62
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
@@ -721,17 +721,17 @@ Ldebug_info0:
 	.ascii "calcular_superficie_cilindro_recto\0"
 	.byte	0x1
 	.byte	0x5e
-	.long	0xf6
+	.long	0xf4
 	.long	LFB45
 	.long	LFE45-LFB45
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x320
+	.long	0x31e
 	.uleb128 0x4
 	.secrel32	LASF0
 	.byte	0x1
 	.byte	0x5e
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -739,7 +739,7 @@ Ldebug_info0:
 	.secrel32	LASF1
 	.byte	0x1
 	.byte	0x5e
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
@@ -748,17 +748,17 @@ Ldebug_info0:
 	.ascii "calcular_volumen_cuboide\0"
 	.byte	0x1
 	.byte	0x5a
-	.long	0xf6
+	.long	0xf4
 	.long	LFB44
 	.long	LFE44-LFB44
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x37a
+	.long	0x378
 	.uleb128 0x4
 	.secrel32	LASF2
 	.byte	0x1
 	.byte	0x5a
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -766,7 +766,7 @@ Ldebug_info0:
 	.secrel32	LASF3
 	.byte	0x1
 	.byte	0x5a
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
@@ -774,7 +774,7 @@ Ldebug_info0:
 	.ascii "alto\0"
 	.byte	0x1
 	.byte	0x5a
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 8
@@ -783,17 +783,17 @@ Ldebug_info0:
 	.ascii "calcular_superficie_cuboide\0"
 	.byte	0x1
 	.byte	0x56
-	.long	0xf6
+	.long	0xf4
 	.long	LFB43
 	.long	LFE43-LFB43
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x3d7
+	.long	0x3d5
 	.uleb128 0x4
 	.secrel32	LASF2
 	.byte	0x1
 	.byte	0x56
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -801,7 +801,7 @@ Ldebug_info0:
 	.secrel32	LASF3
 	.byte	0x1
 	.byte	0x56
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
@@ -809,7 +809,7 @@ Ldebug_info0:
 	.ascii "alto\0"
 	.byte	0x1
 	.byte	0x56
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 8
@@ -818,23 +818,23 @@ Ldebug_info0:
 	.ascii "calcular_volumen_cubo\0"
 	.byte	0x1
 	.byte	0x52
-	.long	0xf6
+	.long	0xf4
 	.long	LFB42
 	.long	LFE42-LFB42
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x43a
+	.long	0x438
 	.uleb128 0x4
 	.secrel32	LASF4
 	.byte	0x1
 	.byte	0x52
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
 	.uleb128 0x6
 	.long	LVL14
-	.long	0x9cf
+	.long	0x9cd
 	.uleb128 0x7
 	.uleb128 0x2
 	.byte	0x74
@@ -844,16 +844,16 @@ Ldebug_info0:
 	.sleb128 0
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0xf6
+	.uleb128 0xf4
 	.byte	0xf7
-	.uleb128 0xec
+	.uleb128 0xea
 	.uleb128 0x7
 	.uleb128 0x2
 	.byte	0x74
 	.sleb128 8
 	.uleb128 0xc
 	.byte	0xf4
-	.uleb128 0xec
+	.uleb128 0xea
 	.byte	0x8
 	.long	0
 	.long	0x40080000
@@ -863,17 +863,17 @@ Ldebug_info0:
 	.ascii "calcular_superficie_cubo\0"
 	.byte	0x1
 	.byte	0x4e
-	.long	0xf6
+	.long	0xf4
 	.long	LFB41
 	.long	LFE41-LFB41
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x477
+	.long	0x475
 	.uleb128 0x4
 	.secrel32	LASF4
 	.byte	0x1
 	.byte	0x4e
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -882,17 +882,17 @@ Ldebug_info0:
 	.ascii "calcular_area_poligono_regular\0"
 	.byte	0x1
 	.byte	0x47
-	.long	0xf6
+	.long	0xf4
 	.long	LFB40
 	.long	LFE40-LFB40
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x503
+	.long	0x501
 	.uleb128 0x5
 	.ascii "n\0"
 	.byte	0x1
 	.byte	0x47
-	.long	0xff
+	.long	0xfd
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -900,7 +900,7 @@ Ldebug_info0:
 	.secrel32	LASF4
 	.byte	0x1
 	.byte	0x47
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
@@ -908,7 +908,7 @@ Ldebug_info0:
 	.ascii "apotema\0"
 	.byte	0x1
 	.byte	0x47
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 8
@@ -916,34 +916,34 @@ Ldebug_info0:
 	.ascii "perimetro\0"
 	.byte	0x1
 	.byte	0x48
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x9
-	.long	0x6d4
+	.long	0x6d2
 	.long	LBB4
 	.long	LBE4-LBB4
 	.byte	0x1
 	.byte	0x48
 	.uleb128 0xa
-	.long	0x712
+	.long	0x710
 	.uleb128 0xa
-	.long	0x704
+	.long	0x702
 	.byte	0
 	.byte	0
 	.uleb128 0x3
 	.ascii "calcular_area_circulo\0"
 	.byte	0x1
 	.byte	0x43
-	.long	0xf6
+	.long	0xf4
 	.long	LFB39
 	.long	LFE39-LFB39
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x53d
+	.long	0x53b
 	.uleb128 0x4
 	.secrel32	LASF0
 	.byte	0x1
 	.byte	0x43
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -952,17 +952,17 @@ Ldebug_info0:
 	.ascii "calcular_area_trapecio\0"
 	.byte	0x1
 	.byte	0x3f
-	.long	0xf6
+	.long	0xf4
 	.long	LFB38
 	.long	LFE38-LFB38
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x5a0
+	.long	0x59e
 	.uleb128 0x5
 	.ascii "baseMayor\0"
 	.byte	0x1
 	.byte	0x3f
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -970,7 +970,7 @@ Ldebug_info0:
 	.ascii "baseMenor\0"
 	.byte	0x1
 	.byte	0x3f
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
@@ -978,7 +978,7 @@ Ldebug_info0:
 	.secrel32	LASF1
 	.byte	0x1
 	.byte	0x3f
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 8
@@ -987,53 +987,53 @@ Ldebug_info0:
 	.ascii "calcular_area_rombo\0"
 	.byte	0x1
 	.byte	0x3b
-	.long	0xf6
+	.long	0xf4
 	.byte	0x1
-	.long	0x5e3
+	.long	0x5e1
 	.uleb128 0xc
 	.ascii "diagonal1\0"
 	.byte	0x1
 	.byte	0x3b
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0xc
 	.ascii "diagonal2\0"
 	.byte	0x1
 	.byte	0x3b
-	.long	0xf6
+	.long	0xf4
 	.byte	0
 	.uleb128 0xb
 	.ascii "calcular_area_rectangulo\0"
 	.byte	0x1
 	.byte	0x37
-	.long	0xf6
+	.long	0xf4
 	.byte	0x1
-	.long	0x61f
+	.long	0x61d
 	.uleb128 0xd
 	.secrel32	LASF2
 	.byte	0x1
 	.byte	0x37
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0xd
 	.secrel32	LASF3
 	.byte	0x1
 	.byte	0x37
-	.long	0xf6
+	.long	0xf4
 	.byte	0
 	.uleb128 0x3
 	.ascii "calcular_area_cuadrado\0"
 	.byte	0x1
 	.byte	0x33
-	.long	0xf6
+	.long	0xf4
 	.long	LFB35
 	.long	LFE35-LFB35
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x65a
+	.long	0x658
 	.uleb128 0x4
 	.secrel32	LASF4
 	.byte	0x1
 	.byte	0x33
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -1042,69 +1042,69 @@ Ldebug_info0:
 	.ascii "calcular_area_paralelogramo\0"
 	.byte	0x1
 	.byte	0x2f
-	.long	0xf6
-	.long	0x699
+	.long	0xf4
+	.long	0x697
 	.uleb128 0xc
 	.ascii "base\0"
 	.byte	0x1
 	.byte	0x2f
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0xd
 	.secrel32	LASF1
 	.byte	0x1
 	.byte	0x2f
-	.long	0xf6
+	.long	0xf4
 	.byte	0
 	.uleb128 0xe
 	.ascii "calcular_area_triangulo\0"
 	.byte	0x1
 	.byte	0x2b
-	.long	0xf6
-	.long	0x6d4
+	.long	0xf4
+	.long	0x6d2
 	.uleb128 0xc
 	.ascii "base\0"
 	.byte	0x1
 	.byte	0x2b
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0xd
 	.secrel32	LASF1
 	.byte	0x1
 	.byte	0x2b
-	.long	0xf6
+	.long	0xf4
 	.byte	0
 	.uleb128 0xb
 	.ascii "calcular_perimetro_poligono_regular\0"
 	.byte	0x1
 	.byte	0x25
-	.long	0xf6
+	.long	0xf4
 	.byte	0x1
-	.long	0x723
+	.long	0x721
 	.uleb128 0xc
 	.ascii "nLados\0"
 	.byte	0x1
 	.byte	0x25
-	.long	0xff
+	.long	0xfd
 	.uleb128 0xc
 	.ascii "longitud\0"
 	.byte	0x1
 	.byte	0x25
-	.long	0xf6
+	.long	0xf4
 	.byte	0
 	.uleb128 0x3
 	.ascii "calcular_perimetro_circulo\0"
 	.byte	0x1
 	.byte	0x21
-	.long	0xf6
+	.long	0xf4
 	.long	LFB31
 	.long	LFE31-LFB31
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x762
+	.long	0x760
 	.uleb128 0x4
 	.secrel32	LASF0
 	.byte	0x1
 	.byte	0x21
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -1113,17 +1113,17 @@ Ldebug_info0:
 	.ascii "calcular_perimetro_trapecio\0"
 	.byte	0x1
 	.byte	0x1d
-	.long	0xf6
+	.long	0xf4
 	.long	LFB30
 	.long	LFE30-LFB30
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x7d4
+	.long	0x7d2
 	.uleb128 0x5
 	.ascii "ladoA\0"
 	.byte	0x1
 	.byte	0x1d
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -1131,7 +1131,7 @@ Ldebug_info0:
 	.ascii "ladoB\0"
 	.byte	0x1
 	.byte	0x1d
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
@@ -1139,7 +1139,7 @@ Ldebug_info0:
 	.ascii "ladoC\0"
 	.byte	0x1
 	.byte	0x1d
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 8
@@ -1147,7 +1147,7 @@ Ldebug_info0:
 	.ascii "ladoD\0"
 	.byte	0x1
 	.byte	0x1d
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 12
@@ -1156,77 +1156,77 @@ Ldebug_info0:
 	.ascii "calcular_perimetro_rombo\0"
 	.byte	0x1
 	.byte	0x19
-	.long	0xf6
+	.long	0xf4
 	.byte	0x1
-	.long	0x805
+	.long	0x803
 	.uleb128 0xd
 	.secrel32	LASF4
 	.byte	0x1
 	.byte	0x19
-	.long	0xf6
+	.long	0xf4
 	.byte	0
 	.uleb128 0xb
 	.ascii "calcular_perimetro_rectangulo\0"
 	.byte	0x1
 	.byte	0x15
-	.long	0xf6
+	.long	0xf4
 	.byte	0x1
-	.long	0x846
+	.long	0x844
 	.uleb128 0xd
 	.secrel32	LASF2
 	.byte	0x1
 	.byte	0x15
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0xd
 	.secrel32	LASF3
 	.byte	0x1
 	.byte	0x15
-	.long	0xf6
+	.long	0xf4
 	.byte	0
 	.uleb128 0xe
 	.ascii "calcular_perimetro_cuadrado\0"
 	.byte	0x1
 	.byte	0x11
-	.long	0xf6
-	.long	0x879
+	.long	0xf4
+	.long	0x877
 	.uleb128 0xd
 	.secrel32	LASF4
 	.byte	0x1
 	.byte	0x11
-	.long	0xf6
+	.long	0xf4
 	.byte	0
 	.uleb128 0xe
 	.ascii "calcular_perimetro_paralelogramo\0"
 	.byte	0x1
 	.byte	0xd
-	.long	0xf6
-	.long	0x8c0
+	.long	0xf4
+	.long	0x8be
 	.uleb128 0xc
 	.ascii "ladoA\0"
 	.byte	0x1
 	.byte	0xd
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0xc
 	.ascii "ladoB\0"
 	.byte	0x1
 	.byte	0xd
-	.long	0xf6
+	.long	0xf4
 	.byte	0
 	.uleb128 0x3
 	.ascii "calcular_perimetro_triangulo\0"
 	.byte	0x1
 	.byte	0x9
-	.long	0xf6
+	.long	0xf4
 	.long	LFB25
 	.long	LFE25-LFB25
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x923
+	.long	0x921
 	.uleb128 0x5
 	.ascii "lado1\0"
 	.byte	0x1
 	.byte	0x9
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
@@ -1234,7 +1234,7 @@ Ldebug_info0:
 	.ascii "lado2\0"
 	.byte	0x1
 	.byte	0x9
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
@@ -1242,92 +1242,92 @@ Ldebug_info0:
 	.ascii "lado3\0"
 	.byte	0x1
 	.byte	0x9
-	.long	0xf6
+	.long	0xf4
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 8
 	.byte	0
 	.uleb128 0xf
-	.long	0x805
+	.long	0x803
 	.long	LFB28
 	.long	LFE28-LFB28
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x947
+	.long	0x945
 	.uleb128 0x10
-	.long	0x82f
+	.long	0x82d
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
 	.uleb128 0x10
-	.long	0x83a
+	.long	0x838
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
 	.byte	0
 	.uleb128 0xf
-	.long	0x7d4
+	.long	0x7d2
 	.long	LFB29
 	.long	LFE29-LFB29
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x963
+	.long	0x961
 	.uleb128 0x10
-	.long	0x7f9
+	.long	0x7f7
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
 	.byte	0
 	.uleb128 0xf
-	.long	0x6d4
+	.long	0x6d2
 	.long	LFB32
 	.long	LFE32-LFB32
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x987
+	.long	0x985
 	.uleb128 0x10
-	.long	0x704
+	.long	0x702
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
 	.uleb128 0x10
-	.long	0x712
+	.long	0x710
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
 	.byte	0
 	.uleb128 0xf
-	.long	0x5e3
+	.long	0x5e1
 	.long	LFB36
 	.long	LFE36-LFB36
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x9ab
+	.long	0x9a9
 	.uleb128 0x10
-	.long	0x608
+	.long	0x606
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
 	.uleb128 0x10
-	.long	0x613
+	.long	0x611
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
 	.byte	0
 	.uleb128 0xf
-	.long	0x5a0
+	.long	0x59e
 	.long	LFB37
 	.long	LFE37-LFB37
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0x9cf
+	.long	0x9cd
 	.uleb128 0x10
-	.long	0x5c0
+	.long	0x5be
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 0
 	.uleb128 0x10
-	.long	0x5d1
+	.long	0x5cf
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 4
